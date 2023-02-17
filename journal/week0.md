@@ -1,6 +1,7 @@
 # Week 0 — Billing and Architecture
 
-Before the bootcamp, I had already registered a domain and created a hosted zone using Amazon Route53 on my main AWS account. Follow this documentation - https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-register.html
+Before the bootcamp, I had already registered a domain and created a hosted zone using Amazon Route53 on my main AWS account. Follow this documentation
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-register.html
 
 # Week 0 Viewing material
 
