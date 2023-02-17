@@ -16,6 +16,16 @@ As I already have [my Github Account](https://github.com/awsmine), I did not cre
   * ### 1b. Setup a MFA on my GitHub account for extra security. 
 [aws-bootcamp-cruddur-2023/journal/assets/week_0_user_bobby_setup_MFA](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_user_bobby_setup_MFA.pdf)
 
+## 2. Create a Free Gitpod Account 
+
+This is used for Cloud Developer Environment (CDE) to work with the code, similar to Cloud9, but witout spinning up an EC2 instance.
+
+## 3. I got the Gitpod Button on my Github Account. 
+
+## 4. Create Gitpod Codespaces
+
+I may need them in future, in case the I used up all the Gitpod free-tier.
+
 
 
 
