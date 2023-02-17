@@ -1,8 +1,48 @@
 # Week 0 — Billing and Architecture
 
-Before the bootcamp, I had already registered a domain and created a hosted zone using Amazon Route53 on my main AWS account. Follow this documentation
-https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-register.html
+Before the bootcamp, I had already registered a domain and created a hosted zone using Amazon Route53 on my main AWS account. Follow this [documentation](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-register.html)
 
+Once you log into your [Student portal](https://student.cloudprojectbootcamp.com/users/sign_in), From the Resources section, you watch all the [Video Instructional Content Playlist](https://www.youtube.com/watch?v=8b8SvQHc4Pk&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv) 
+
+- You can also watch the same, Click on Submissions, Week 0, From the ToDo List. Proceed with setting up of things that you need for this bootcamp as per the instructions given in the videos.
+- update the Checklist
+
+# Required Homework/Tasks
+
+## 1. Create a Github Account 
+
+As I already have [my Github Account](https://github.com/awsmine), I did not create a new one.
+
+  * 1b. I setup a MFA on my GitHub account for extra security. 
+[aws-bootcamp-cruddur-2023/journal/assets/week_0_user_bobby_setup_MFA](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_user_bobby_setup_MFA.pdf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======================================
 # Week 0 Viewing material
 
 Once you log into your Student portal - https://student.cloudprojectbootcamp.com/users/sign_in, Click on Submissions, Week 0, From the ToDo List, you watch all the Video Instructional Content Playlist - https://www.youtube.com/watch?v=8b8SvQHc4Pk&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv. Proceed with setting up of things that you need for this bootcamp as per the instructions given in the videos.
