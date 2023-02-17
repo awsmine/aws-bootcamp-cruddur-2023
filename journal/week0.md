@@ -254,7 +254,7 @@ Follow [Monitoring Amazon Health events with Amazon EventBridge](https://docs.am
 
 ## Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts
 
-### Logical Diagram
+### 1. Logical Diagram
 
 - Link to my Logical Diagram from Lucid Chart
 https://lucid.app/lucidchart/61cf470e-1feb-42c5-afdb-792fb1e4fb85/view?page=0_0&invitationId=inv_4088e3a2-9db3-4c69-951d-5895298985bc#
@@ -263,15 +263,22 @@ https://lucid.app/lucidchart/61cf470e-1feb-42c5-afdb-792fb1e4fb85/view?page=0_0&
 
 
 
-### Coceptual Diagram + Conceptual Diagram on Napkin
+### 2. Coceptual Diagram + Conceptual Diagram on Napkin
 
 - Link to my Conceptual Diagram from Lucid Chart
-- [aws-bootcamp-cruddur-2023/journal/assets/week_0_Conceptual_Diagram_Lucidchart.png[(https://lucid.app/lucidchart/540635e4-8c10-4855-9d62-652763d2a6c1/view?page=0_0&invitationId=inv_02a3c339-9428-4489-a816-8313cbfd28d8#)
 
-- [https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Conceptual%20diagram.pdf[(aws-bootcamp-cruddur-2023/journal/assets/week_0_Conceptual diagram.pdf)
+[aws-bootcamp-cruddur-2023/journal/assets/week_0_Conceptual_Diagram_Lucidchart.png[(https://lucid.app/lucidchart/540635e4-8c10-4855-9d62-652763d2a6c1/view?page=0_0&invitationId=inv_02a3c339-9428-4489-a816-8313cbfd28d8#)
+
+- Link to my Conceptual Diagram PDF file
+
+[https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Conceptual%20diagram.pdf[(aws-bootcamp-cruddur-2023/journal/assets/week_0_Conceptual diagram.pdf)
+
+- Link to my Conceptual Diagram on Napkin
+
+[aws-bootcamp-cruddur-2023/journal/assets/week_0_Conceptual_Napkin_diagram.jpg](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Conceptual_Napkin_diagram.jpg)
 
 
-### Logical CI/CD pipeline Diagram
+### 3. Logical CI/CD pipeline Diagram
 
 -Link to my Logical CI/CD Diagram from Lucid Chart
 https://lucid.app/lucidchart/3f5a105a-3ee6-4af9-b150-e1fc58b1b895/view?page=0_0&invitationId=inv_89d37443-e0b0-46a7-902d-63f22edd1de3#
