@@ -29,9 +29,9 @@ I may need them in future, in case the I used up all the Gitpod free-tier.
 
 ## 5. Creating Your Repository from the Github Template
 
-From the [Bootcamp website](https://aws.cloudprojectbootcamp.com/), go all the way down to the cloud project - Use [ths template](https://github.com/ExamProCo/aws-bootcamp-cruddur-2023), Click - Use `this template` button, and select - Create a new respository - putting in the exact name - `aws-bootcamp-cruddur-2023`, checking - `Public`, and then Click - `Create repository from this template.`
+From the [Bootcamp website](https://aws.cloudprojectbootcamp.com/), go all the way down to the cloud project - Use [Starting template](https://github.com/ExamProCo/aws-bootcamp-cruddur-2023), Click - `Use this template` button, and select - `Create a new respository` - putting in the exact name - `aws-bootcamp-cruddur-2023`, check - `Public`, and then Click - `Create repository from this template.`
 
-{aws-bootcamp-cruddur-2023/journal/assets/week_0_Create_repository_aws-bootcamp-cruddur-2023.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Create_repository_aws-bootcamp-cruddur-2023.pdf)
+[aws-bootcamp-cruddur-2023/journal/assets/week_0_Create_repository_aws-bootcamp-cruddur-2023.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Create_repository_aws-bootcamp-cruddur-2023.pdf)
 
 Once the repository was created, I could see all of the template folders/files available in the repository.
 
