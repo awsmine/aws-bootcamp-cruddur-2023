@@ -251,6 +251,13 @@ Follow [Monitoring Amazon Health events with Amazon EventBridge](https://docs.am
 - [aws-bootcamp-cruddur-2023/journal/assets/week_0_Eventbridge_EC2_health-2.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Eventbridge_EC2_health-2.pdf)
 - [aws-bootcamp-cruddur-2023/journal/assets/week_0_Eventbridge_SNS_topic-3.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Eventbridge_SNS_topic-3.pdf)
 
+## Review all the questions of each pillars in the Well Architected Tool (No specialized lens)
+
+Some time back, in Sept 2022, I completed the training for Well Architected Tool and earned a [Well-Architected Proficient Badge]https://www.credly.com/badges/268d14c8-a150-4b3c-8e23-1ac3823abae0/linked_in_profile)
+https://www.credly.com/badges/268d14c8-a150-4b3c-8e23-1ac3823abae0/linked_in
+
+
+
 
 ## Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts
 
@@ -310,8 +317,11 @@ Follow [Request a Quota Increase with Service Quotas](https://aws.amazon.com/get
 
 
 
+## Cloud Technical Essays
 
+- [Challenges facing during AWS Cloud Project Bootcamp by Andrew Brown](https://dev.to/aws-builders/challenges-facing-during-aws-cloud-project-bootcamp-by-andrew-brown-52ee)
 
+- 
 
 
 
