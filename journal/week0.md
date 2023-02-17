@@ -202,6 +202,39 @@ aws cloudwatch put-metric-alarm --cli-input-json file://aws/json/alarm-config.js
 
 - [aws-bootcamp-cruddur-2023/aws/json/alarm-config.json](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/aws/json/alarm-config.json)
 
+## 13. Create an AWS Budget
+
+- Create only 1 budget not to go over the free budget limit
+
+[aws budgets create-budget](https://docs.aws.amazon.com/cli/latest/reference/budgets/create-budget.html)
+
+- Run AWS Cli to extract the AWS Account ID
+
+```
+aws sts get-caller-identity --query Account --output text
+```
+
+- use the Account ID from the previous command output
+
+- Update the json files with email address
+
+
+- [budget.json](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/aws/json/budget.json)
+
+- [aws-bootcamp-cruddur-2023/journal/assets/week_0_setup_Monthly_Budget.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_setup_Monthly_Budget.pdf)
+
+
+- [budget-notifications-with-subscribers.json](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/aws/json/budget-notifications-with-subscribers.json)
+
+
+```
+aws budgets create-budget \
+    --account-id AccountID \
+    --budget file://aws/json/budget.json \
+    --notifications-with-subscribers file://aws/json/budget-notifications-with-subscribers.json
+    ```
+
+
 
 
 
