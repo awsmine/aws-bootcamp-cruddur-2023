@@ -139,7 +139,68 @@ echo $AWS_DEFAULT_REGION
 ```
 
 
+## 12. Billing Setup
 
+Billing alerts will notify the user if the AWS usage cost rises above a certain threshold.
+
+### Enable the Billing alert
+- To enable it ---> Go to AWS Billing page and `Under Billing Preferences` Choose `Receive Billing Alerts`
+- Save Preferences
+
+### Create SNS Topic
+
+- First create SNS topic before we create an alarm.
+
+- This is what alerts you when hit the set threshold of cost.
+
+- [aws sns create-topic](https://docs.aws.amazon.com/cli/latest/reference/sns/create-topic.html)
+
+
+```
+aws sns create-topic --name billing-alarm
+```
+
+- This will return a SNS topic ARN.
+
+```
+aws sns list-topics
+{
+    "Topics": [
+        {
+            "TopicArn": "arn:aws:sns:us-east-1:0274:Billing_alarm"
+        }
+    ]
+}
+```
+
+- [aws-bootcamp-cruddur-2023/journal/assets/week_0_Billing_alarm_ARN.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Billing_alarm_ARN.pdf)
+
+
+- Create a SNS subscription and associate the above ARN and the email where you want the alert.
+
+```
+aws sns subscribe \
+    --topic-arn TopicARN \
+    --protocol email \
+    --notification-endpoint your@email.com
+```
+
+- Check your email and confirm the subscription
+
+
+### Create the Cloudwatch Alarm
+
+- [aws cloudwatch put-metric-alarm[(https://docs.aws.amazon.com/cli/latest/reference/cloudwatch/put-metric-alarm.html)
+
+- [Create an Alarm via AWS CLI](https://aws.amazon.com/premiumsupport/knowledge-center/cloudwatch-estimatedcharges-alarm/)
+
+[aws-bootcamp-cruddur-2023/journal/assets/week_0_Billing_alarm_ARN.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_setup_Billing_Alarms.pdf)
+
+```
+aws cloudwatch put-metric-alarm --cli-input-json file://aws/json/alarm-config.json
+```
+
+- [larm-config.json](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/aws/json/alarm-config.json)
 
 
 
