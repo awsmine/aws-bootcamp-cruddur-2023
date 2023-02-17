@@ -219,12 +219,11 @@ aws sts get-caller-identity --query Account --output text
 - Update the json files with email address
 
 
-- [budget.json](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/aws/json/budget.json)
+- [aws-bootcamp-cruddur-2023/aws/json/budget.json](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/aws/json/budget.json)
 
 - [aws-bootcamp-cruddur-2023/journal/assets/week_0_setup_Monthly_Budget.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_setup_Monthly_Budget.pdf)
 
-
-- [budget-notifications-with-subscribers.json](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/aws/json/budget-notifications-with-subscribers.json)
+- [aws-bootcamp-cruddur-2023/aws/json/budget-notifications-with-subscribers.json](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/aws/json/budget-notifications-with-subscribers.json)
 
 
 ```
