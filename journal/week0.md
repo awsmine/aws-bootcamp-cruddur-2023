@@ -241,6 +241,17 @@ aws budgets create-budget \
 
 - [aws-bootcamp-cruddur-2023/journal/assets/week_0_user_bobby_setup_MFA](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_user_bobby_setup_MFA.pdf)
 
+- [aws-bootcamp-cruddur-2023/journal/assets/week_0_Role_S3Full.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Role_S3Full.pdf)
+
+## Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue.
+
+Foolow [Monitoring Amazon Health events with Amazon EventBridge](https://docs.amazonaws.cn/en_us/health/latest/ug/cloudwatch-events-health.html)
+
+- [aws-bootcamp-cruddur-2023/journal/assets/week_0_Eventbridge_Health-rule-notify-1.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Eventbridge_Health-rule-notify-1.pdf)
+- [aws-bootcamp-cruddur-2023/journal/assets/week_0_Eventbridge_EC2_health-2.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Eventbridge_EC2_health-2.pdf)
+- [aws-bootcamp-cruddur-2023/journal/assets/week_0_Eventbridge_SNS_topic-3.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Eventbridge_SNS_topic-3.pdf)
+
+
 
 
 
