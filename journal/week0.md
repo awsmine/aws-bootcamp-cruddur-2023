@@ -130,11 +130,13 @@ aws sts get-caller-identity
 }
 ```
 
-- You can verify you have the proper info in your environment variables and they are importing properly by running:
+- You can verify you have the proper info in your environment variables and they are importing properly by running
 
+```
 echo $AWS_ACCESS_KEY_ID
 echo $AWS_SECRET_ACCESS_KEY
 echo $AWS_DEFAULT_REGION
+```
 
 
 
