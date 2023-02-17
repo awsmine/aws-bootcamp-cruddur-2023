@@ -13,7 +13,7 @@ Once you log into your [Student portal](https://student.cloudprojectbootcamp.com
 
 As I already have [my Github Account](https://github.com/awsmine), I did not create a new one.
 
-  * 1b. I **setup a MFA** on my GitHub account for extra security. 
+  * ### 1b. I **setup a MFA** on my GitHub account for extra security. 
 [aws-bootcamp-cruddur-2023/journal/assets/week_0_user_bobby_setup_MFA](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_user_bobby_setup_MFA.pdf)
 
 
