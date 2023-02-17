@@ -4,8 +4,9 @@ Before the bootcamp, I had already registered a domain and created a hosted zone
 
 Once you log into your [Student portal](https://student.cloudprojectbootcamp.com/users/sign_in), From the Resources section, you watch all the [Video Instructional Content Playlist](https://www.youtube.com/watch?v=8b8SvQHc4Pk&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv) 
 
-- You can also watch the same, Click on Submissions, Week 0, From the ToDo List. Proceed with setting up of things that you need for this bootcamp as per the instructions given in the videos.
-- update the Checklist
+- You can also watch the same, Click on Submissions, Week 0, From the ToDo List. 
+- *** Proceed with setting up of things that you need for this bootcamp as per the instructions given in the videos.***
+- Update the Checklist
 
 # Required Homework/Tasks
 
@@ -18,7 +19,7 @@ As I already have [my Github Account](https://github.com/awsmine), I did not cre
 
 ## 2. Create a Free Gitpod Account 
 
-This is used for Cloud Developer Environment (CDE) to work with the code, similar to Cloud9, but witout spinning up an EC2 instance.
+This is used for Cloud Developer Environment (CDE) to work with the code, similar to Cloud9, but without spinning up an EC2 instance.
 
 ## 3. I got the Gitpod Button on my Github Account. 
 
