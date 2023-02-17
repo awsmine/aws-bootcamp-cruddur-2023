@@ -265,9 +265,9 @@ https://lucid.app/lucidchart/61cf470e-1feb-42c5-afdb-792fb1e4fb85/view?page=0_0&
 
 ### 2. Coceptual Diagram + Conceptual Diagram on Napkin
 
-* Link to my Conceptual Diagram from Lucid Chart
+- Link to my Conceptual Diagram from Lucid Chart
 
-- [aws-bootcamp-cruddur-2023/journal/assets/week_0_Conceptual_Diagram_Lucidchart.png](https://lucid.app/lucidchart/540635e4-8c10-4855-9d62-652763d2a6c1/view?page=0_0&invitationId=inv_02a3c339-9428-4489-a816-8313cbfd28d8#)
+- ### [aws-bootcamp-cruddur-2023/journal/assets/week_0_Conceptual_Diagram_Lucidchart.png](https://lucid.app/lucidchart/540635e4-8c10-4855-9d62-652763d2a6c1/view?page=0_0&invitationId=inv_02a3c339-9428-4489-a816-8313cbfd28d8#)
 
 - Link to my Conceptual Diagram PDF file
 
