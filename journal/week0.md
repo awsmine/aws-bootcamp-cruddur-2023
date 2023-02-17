@@ -5,10 +5,10 @@ Before the bootcamp, I had already registered a domain and created a hosted zone
 Once you log into your [Student portal](https://student.cloudprojectbootcamp.com/users/sign_in), From the Resources section, you watch all the [Video Instructional Content Playlist](https://www.youtube.com/watch?v=8b8SvQHc4Pk&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv) 
 
 - You can also watch the same, Click on Submissions, Week 0, From the ToDo List. 
-- ***Proceed with setting up of the following tasks that you need for this bootcamp as per the instructions given in the videos.***
+- ***Proceed with setting up the following tasks that you need for this bootcamp as per the instructions given in the videos.***
 - Update the Checklist
 
-# Required Homework/Tasks
+# Required Tasks needed to complete the Homework
 
 ## 1. Create a Github Account 
 
@@ -35,7 +35,6 @@ From the [Bootcamp website](https://aws.cloudprojectbootcamp.com/), go all the w
 
 Once the repository was created, I could see all of the template folders/files available in the repository.
 
-
 ## 6. Create an AWS Account 
 
 As I already have one, I did not create another Account.
@@ -48,13 +47,15 @@ As I already have one, I did not create another Account.
 
 ## 10. Install AWS CLI to launch Gitpod environment on the main branch
 
-- For [installation instructions](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+- Follow [installation instructions](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
-- expand the section on Linux, and copy and paste the bash commands into `.gitpod.yml` on Gitpod
+- Expand the section on Linux, and copy and paste the bash commands into `.gitpod.yml` on Gitpod
 
 - On Gitpod, Update `.gitpod.yml` to include the following task 
 
-- set AWS CLI to use partial autoprompt mode to make it easier to debug CLI commands.
+- Set AWS CLI to use `partial autoprompt` mode to make it easier to debug CLI commands.
+
+[aws-bootcamp-cruddur-2023/.gitpod.yml](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/.gitpod.yml)
 
 ```
 tasks:
@@ -73,7 +74,7 @@ tasks:
 
 - Run `git push`
 
-- If you run into an error doing a git push, make sure you have given Gitpod `write permission to public_repo` in your [Github integration](https://gitpod.io/user/integrations)
+- If you run into an error doing a `git push`, make sure you have given Gitpod `write permission to public_repo` in your [Github integration](https://gitpod.io/user/integrations)
 
 
 
