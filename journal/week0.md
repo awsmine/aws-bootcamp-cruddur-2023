@@ -292,7 +292,17 @@ Follow [Monitoring Amazon Health events with Amazon EventBridge](https://docs.am
 
 
 
+## Open a support ticket and request a service limit
 
+Follow [Request a Quota Increase with Service Quotas](https://aws.amazon.com/getting-started/hands-on/request-service-quota-increase/)
+
+- [aws-bootcamp-cruddur-2023/journal/assets/week_0_Service_Quota_incr_EC2_50.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Service_Quota_incr_EC2_50.pdf)
+
+- [aws-bootcamp-cruddur-2023/journal/assets/week_0_Service_Quota_incr_Pending.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Service_Quota_incr_Pending.pdf)
+
+- [aws-bootcamp-cruddur-2023/journal/assets/week_0_Service_Quota_incr_EC2_50_Support_ticket.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Service_Quota_incr_EC2_50_Support_ticket.pdf)
+
+- [aws-bootcamp-cruddur-2023/journal/assets/week_0_Service_Quota_incr_Resolved.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Service_Quota_incr_Resolved.pdf)
 
 
 
