@@ -2,18 +2,14 @@
 
 Before the bootcamp, I had already registered a domain and created a hosted zone using Amazon Route53 on my main AWS account. Follow this documentation - https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-register.html
 
+# Week 0 Viewing material
 
-Week 0 Viewing material
+Once you log into your Student portal - https://student.cloudprojectbootcamp.com/users/sign_in, Click on Submissions, Week 0, From the ToDo List, you watch all the Video Instructional Content Playlist - https://www.youtube.com/watch?v=8b8SvQHc4Pk&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv. Proceed with setting up of things that you need for this bootcamp as per the instructions given in the videos.
 
-Once you log into your Student portal - https://student.cloudprojectbootcamp.com/users/sign_in, Click on Submissions, Week_0, From the ToDo List, you watch all the Video Instructional Content Playlist - https://www.youtube.com/watch?v=8b8SvQHc4Pk&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv. Proceed with setting up of things that you need for this bootcamp as per the instructions given in the videos.
+# Required Homework/Tasks
 
-Required Homework/Tasks
-
-
-Before the bootcamp, I had already registered a domain and created a hosted zone using Amazon Route53 on my main AWS account. Follow this documentation - https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-register.html
-
-
-1. Create a Github Account - I did not create a new Github Account, as I already have one, https://github.com/awsmine
+**1.** Create a Github Account 
+- I did not create a new Github Account, as I already have one, https://github.com/awsmine
 
  1b. I setup a MFA on my GitHub account for extra security. PDF in week_0 folder.
 
