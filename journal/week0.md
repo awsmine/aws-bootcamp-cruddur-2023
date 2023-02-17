@@ -5,7 +5,7 @@ Before the bootcamp, I had already registered a domain and created a hosted zone
 
 Week 0 Viewing material
 
-Once you log into your Student portal - https://student.cloudprojectbootcamp.com/users/sign_in, From the ToDo List, you watch all the Video Instructional Content Playlist - https://www.youtube.com/watch?v=8b8SvQHc4Pk&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv. Proceed with setting up of things that you need for this bootcamp as per the instructions given in the videos.
+Once you log into your Student portal - https://student.cloudprojectbootcamp.com/users/sign_in, Click on Submissions, Week_0, From the ToDo List, you watch all the Video Instructional Content Playlist - https://www.youtube.com/watch?v=8b8SvQHc4Pk&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv. Proceed with setting up of things that you need for this bootcamp as per the instructions given in the videos.
 
 Required Homework/Tasks
 
