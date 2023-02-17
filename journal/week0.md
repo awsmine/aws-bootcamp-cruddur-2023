@@ -78,7 +78,7 @@ tasks:
 
 ## 11. Create a new User and Generate AWS Credentials
 
- - From [IAM Users Console](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users)
+ - From [IAM Users Console](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users),  login as a root user
 
 - Create an IAM user - `bobby`
 - `Enable Console access` for the user
@@ -87,6 +87,54 @@ tasks:
 - `Click on the user`, Click `Security Credentials` and `Create Access Key`
 - Choose `Command Line Interface (CLI)`, `Create Access key`
 - `Download the CSV with the credentials`
+
+- set environment variables that are needed in the GITPOD
+
+```
+export AWS_ACCESS_KEY_ID=""
+export AWS_SECRET_ACCESS_KEY=""
+export AWS_DEFAULT_REGION=us-east-1
+```
+- Save these environment variable into Gitpod when we relaunch our workspaces
+
+```
+gp env AWS_ACCESS_KEY_ID=""
+gp env AWS_SECRET_ACCESS_KEY=""
+gp env AWS_DEFAULT_REGION=us-east-1
+```
+
+- You can also [check the variables]( https://gitpod.io/user/variables) in 
+
+```
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+AWS_DEFAULT_REGION
+```
+
+- Then go to your Github page, click the `Gitpod` button, and it should spin up a new workspace and set up the aws cli with your AWS account info.
+
+
+### Validate the AWS CLI by checking for user's identity
+
+```
+aws sts get-caller-identity
+```
+ 
+- shows that you are accessing AWS CLI with the right credentials.
+
+```
+{
+    "UserId": "XXXXXXXXXXXXXXXXXXXXX",
+    "Account": "123456789012",
+    "Arn": "arn:aws:iam::123456789012:user/bobby"
+}
+```
+
+- You can verify you have the proper info in your environment variables and they are importing properly by running:
+
+echo $AWS_ACCESS_KEY_ID
+echo $AWS_SECRET_ACCESS_KEY
+echo $AWS_DEFAULT_REGION
 
 
 
