@@ -15,7 +15,8 @@ Once you log into your [Student portal](https://student.cloudprojectbootcamp.com
 As I already have [my Github Account](https://github.com/awsmine), I did not create a new one.
 
   * ### 1b. Setup a MFA on my GitHub account for extra security. 
-- [aws-bootcamp-cruddur-2023/journal/assets/week_0_user_bobby_setup_MFA](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_user_bobby_setup_MFA.pdf)
+
+- [Configuring two-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
 
 ## 2. Create a Free Gitpod Account 
 
@@ -232,6 +233,14 @@ aws budgets create-budget \
     --budget file://aws/json/budget.json \
     --notifications-with-subscribers file://aws/json/budget-notifications-with-subscribers.json
 ```
+
+
+#  Homework Challenges
+
+## Set MFA, IAM role
+
+- [aws-bootcamp-cruddur-2023/journal/assets/week_0_user_bobby_setup_MFA](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_user_bobby_setup_MFA.pdf)
+
 
 
 
