@@ -76,6 +76,18 @@ tasks:
 
 - If you run into an error doing a `git push`, make sure you have given Gitpod `write permission to public_repo` in your [Github integration](https://gitpod.io/user/integrations)
 
+## 11. Create a new User and Generate AWS Credentials
+
+ - From [IAM Users Console](https://us-east-1.console.aws.amazon.com/iamv2/home?region=us-east-1#/users)
+
+- Create an IAM user - `bobby`
+- `Enable Console access` for the user
+- Create a new `Admin group - admin` and `apply AdminstratorAccess`
+- `Create the user`
+- `Click on the user`, Click `Security Credentials` and `Create Access Key`
+- Choose `Command Line Interface (CLI)`, `Create Access key`
+- `Download the CSV with the credentials`
+
 
 
 
