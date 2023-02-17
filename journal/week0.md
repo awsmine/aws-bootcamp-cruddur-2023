@@ -40,6 +40,43 @@ Once the repository was created, I could see all of the template folders/files a
 
 As I already have one, I did not create another Account.
 
+## 7. Create a Free Lucidchart Account to draw AWS Architectural diagrams
+
+## 8. Create a Free Honeycomb.io Account
+
+## 9. Create a Free Rollbar Account
+
+## 10. Install AWS CLI to launch Gitpod environment on the main branch
+
+- For [installation instructions](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
+- expand the section on Linux, and copy and paste the bash commands into `.gitpod.yml` on Gitpod
+
+- On Gitpod, Update `.gitpod.yml` to include the following task 
+
+- set AWS CLI to use partial autoprompt mode to make it easier to debug CLI commands.
+
+```
+tasks:
+  - name: aws-cli
+    env:
+      AWS_CLI_AUTO_PROMPT: on-partial
+    init: |
+      cd /workspace
+      curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+      unzip awscliv2.zip
+      sudo ./aws/install
+      cd $THEIA_WORKSPACE_ROOT
+```
+
+- Run `git commit`
+
+- Run `git push`
+
+- If you run into an error doing a git push, make sure you have given Gitpod `write permission to public_repo` in your [Github integration](https://gitpod.io/user/integrations)
+
+
+
 
 
 
