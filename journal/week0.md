@@ -15,7 +15,7 @@ Once you log into your [Student portal](https://student.cloudprojectbootcamp.com
 As I already have [my Github Account](https://github.com/awsmine), I did not create a new one.
 
   * ### 1b. Setup a MFA on my GitHub account for extra security. 
-[aws-bootcamp-cruddur-2023/journal/assets/week_0_user_bobby_setup_MFA](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_user_bobby_setup_MFA.pdf)
+- [aws-bootcamp-cruddur-2023/journal/assets/week_0_user_bobby_setup_MFA](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_user_bobby_setup_MFA.pdf)
 
 ## 2. Create a Free Gitpod Account 
 
@@ -31,7 +31,7 @@ I may need them in future, in case the I used up all the Gitpod free-tier.
 
 From the [Bootcamp website](https://aws.cloudprojectbootcamp.com/), go all the way down to the cloud project - Use [Starting template](https://github.com/ExamProCo/aws-bootcamp-cruddur-2023), Click - `Use this template` button, and select - `Create a new respository` - putting in the exact name - `aws-bootcamp-cruddur-2023`, check - `Public`, and then Click - `Create repository from this template.`
 
-[aws-bootcamp-cruddur-2023/journal/assets/week_0_Create_repository_aws-bootcamp-cruddur-2023.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Create_repository_aws-bootcamp-cruddur-2023.pdf)
+- [aws-bootcamp-cruddur-2023/journal/assets/week_0_Create_repository_aws-bootcamp-cruddur-2023.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Create_repository_aws-bootcamp-cruddur-2023.pdf)
 
 Once the repository was created, I could see all of the template folders/files available in the repository.
 
@@ -55,7 +55,7 @@ As I already have one, I did not create another Account.
 
 - Set AWS CLI to use `partial autoprompt` mode to make it easier to debug CLI commands.
 
-[aws-bootcamp-cruddur-2023/.gitpod.yml](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/.gitpod.yml)
+- [aws-bootcamp-cruddur-2023/.gitpod.yml](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/.gitpod.yml)
 
 ```
 tasks:
@@ -194,7 +194,7 @@ aws sns subscribe \
 
 - [Create an Alarm via AWS CLI](https://aws.amazon.com/premiumsupport/knowledge-center/cloudwatch-estimatedcharges-alarm/)
 
-[aws-bootcamp-cruddur-2023/journal/assets/week_0_Billing_alarm_ARN.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_setup_Billing_Alarms.pdf)
+- [aws-bootcamp-cruddur-2023/journal/assets/week_0_Billing_alarm_ARN.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_setup_Billing_Alarms.pdf)
 
 ```
 aws cloudwatch put-metric-alarm --cli-input-json file://aws/json/alarm-config.json
