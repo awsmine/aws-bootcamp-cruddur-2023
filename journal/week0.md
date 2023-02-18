@@ -205,9 +205,9 @@ aws cloudwatch put-metric-alarm --cli-input-json file://aws/json/alarm-config.js
 
 ## 13. Create an AWS Budget
 
-Create only 1 budget not to go over the free budget limit
+- Create only 1 budget not to go over the free budget limit
 
-[aws budgets create-budget](https://docs.aws.amazon.com/cli/latest/reference/budgets/create-budget.html)
+- [aws budgets create-budget](https://docs.aws.amazon.com/cli/latest/reference/budgets/create-budget.html)
 
 - Run AWS Cli to extract the AWS Account ID
 
@@ -255,7 +255,7 @@ Follow [Monitoring Amazon Health events with Amazon EventBridge](https://docs.am
 
 - This is not related to the course, but I thought I should mention this.
 
-- Some time back, in Sept 2022, I completed the training for Well Architected Tool and earned a [Well-Architected Proficient Badge]([https://www.credly.com/badges/268d14c8-a150-4b3c-8e23-1ac3823abae0/linked_in_profile](https://www.credly.com/badges/268d14c8-a150-4b3c-8e23-1ac3823abae0/linked_in)
+- Some time back, in Sept 2022, I completed the training for Well Architected Tool and earned a [Well-Architected Proficient Badge](https://www.credly.com/badges/268d14c8-a150-4b3c-8e23-1ac3823abae0/linked_in)
 
 - Created a workload **week_0_project** to do this task in getting the report for my project using the **Logical CI/CD pipeline Diagram**
 
