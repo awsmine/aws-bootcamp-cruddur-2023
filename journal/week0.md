@@ -313,32 +313,32 @@ Amazon Elastic Compute Cloud (EC2) is a most commonly and widely used cloud comp
 ### Technical limits of EC2 that I could think of
 
 
-**Instance Limits:** The number of EC2 instances that a user can launch is limited by default, usually 5. These limits can be increased by submitting a request to AWS, which I did today by raising a service ticket. If a user exceeds these limits without increasing them, it can impact the flexibility of their technical path.
+- **Instance Limits:** The number of EC2 instances that a user can launch is limited by default, usually 5. These limits can be increased by submitting a request to AWS, which I did today by raising a service ticket. If a user exceeds these limits without increasing them, it can impact the flexibility of their technical path.
 
-**Instance types:** EC2 offers several instance types with varying amounts of CPU, memory, and storage capacity. Each instance type has a limit on the number of instances that can be launched, and the total number of vCPUs that can be used.
+- **Instance types:** EC2 offers several instance types with varying amounts of CPU, memory, and storage capacity. Each instance type has a limit on the number of instances that can be launched, and the total number of vCPUs that can be used.
 
-**Network:** EC2 instances are connected to the internet through Amazon VPC. VPC has limits on the number of subnets, security groups, and network interfaces that can be created.
+- **Network:** EC2 instances are connected to the internet through Amazon VPC. VPC has limits on the number of subnets, security groups, and network interfaces that can be created.
 
-**Network Interfaces:** Each EC2 instance can have a limited number of network interfaces. If a user needs to connect their instances to multiple networks or use multiple IP addresses, they may need to use additional instances or consider other AWS services.
+- **Network Interfaces:** Each EC2 instance can have a limited number of network interfaces. If a user needs to connect their instances to multiple networks or use multiple IP addresses, they may need to use additional instances or consider other AWS services.
 
-**Storage:** EC2 provides different types of storage options, including Elastic Block Store (EBS), instance store, and Amazon S3. Each storage type has different limits on storage capacity, IOPS, and throughput.
+- **Storage:** EC2 provides different types of storage options, including Elastic Block Store (EBS), instance store, and Amazon S3. Each storage type has different limits on storage capacity, IOPS, and throughput.
 
 
-**Sonme service limits of EC2
+### Sonme service limits of EC2
 
-**Volumes:** EC2 instances can attach a limited number of volumes, and each volume has a maximum size limit. This can impact the technical path if a user needs to attach more volumes or use larger volumes.
+- **Volumes:** EC2 instances can attach a limited number of volumes, and each volume has a maximum size limit. This can impact the technical path if a user needs to attach more volumes or use larger volumes.
 
-**Availability Zones:** EC2 instances can be launched in different availability zones (AZs) to improve availability and fault tolerance, which are isolated data centers within a region. There are limits on the number of instances that can be launched in each AZ, and the total number of instances that can be launched in a region.
+- **Availability Zones:** EC2 instances can be launched in different availability zones (AZs) to improve availability and fault tolerance, which are isolated data centers within a region. There are limits on the number of instances that can be launched in each AZ, and the total number of instances that can be launched in a region.
 
-**Security:** EC2 provides several security features, including network security groups, IAM roles, and encryption. There are limits on the number of security groups, IAM roles, and keys that can be created.
+- **Security:** EC2 provides several security features, including network security groups, IAM roles, and encryption. There are limits on the number of security groups, IAM roles, and keys that can be created.
 
-**Elastic IP addresses:** EC2 provides elastic IP addresses (EIPs) that can be associated with instances. There are limits on the number of EIPs that can be allocated per account.
+- **Elastic IP addresses:** EC2 provides elastic IP addresses (EIPs) that can be associated with instances. There are limits on the number of EIPs that can be allocated per account.
 
-**Auto Scaling:** EC2 Auto Scaling allows users to automatically scale the number of instances based on demand. There are limits on the number of Auto Scaling groups and launch configurations that can be created.
+- **Auto Scaling:** EC2 Auto Scaling allows users to automatically scale the number of instances based on demand. There are limits on the number of Auto Scaling groups and launch configurations that can be created.
 
 **Amazon Machine Images (AMIs):** EC2 instances can be launched from pre-configured Amazon Machine Images (AMIs). There are limits on the number of AMIs that can be created and shared.
 
-**Regional limitations:** Some EC2 features may not be available in all AWS regions. For example, certain instance types may only be available in specific regions, and some instance types may have limited availability in certain regions.
+- **Regional limitations:** Some EC2 features may not be available in all AWS regions. For example, certain instance types may only be available in specific regions, and some instance types may have limited availability in certain regions.
 
 These limits can impact the technical path for technical flexibility in several ways. 
 
