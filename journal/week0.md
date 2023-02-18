@@ -324,7 +324,7 @@ Follow [Request a Quota Increase with Service Quotas](https://aws.amazon.com/get
 
 - [Challenges facing during AWS Cloud Project Bootcamp by Andrew Brown](https://dev.to/aws-builders/challenges-facing-during-aws-cloud-project-bootcamp-by-andrew-brown-52ee)
 
-- 
+- [Getting the serverless cache icon for AWS Cloud Project Bootcamp by Andrew Brown](https://dev.to/aws-builders/getting-the-serverless-cache-icon-for-aws-cloud-project-bootcamp-by-andrew-brown-4poi)
 
 
 ## Knowledge Challenges
