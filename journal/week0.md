@@ -253,10 +253,17 @@ Follow [Monitoring Amazon Health events with Amazon EventBridge](https://docs.am
 
 ## Review all the questions of each pillars in the Well Architected Tool (No specialized lens)
 
-Some time back, in Sept 2022, I completed the training for Well Architected Tool and earned a [Well-Architected Proficient Badge]https://www.credly.com/badges/268d14c8-a150-4b3c-8e23-1ac3823abae0/linked_in_profile)
-https://www.credly.com/badges/268d14c8-a150-4b3c-8e23-1ac3823abae0/linked_in
+- This is not related to the course, but i thought I should mention this.
+- 
+- Some time back, in Sept 2022, I completed the training for Well Architected Tool and earned a [Well-Architected Proficient Badge]([https://www.credly.com/badges/268d14c8-a150-4b3c-8e23-1ac3823abae0/linked_in_profile](https://www.credly.com/badges/268d14c8-a150-4b3c-8e23-1ac3823abae0/linked_in)
+
+- Created a workload **week_0_project** to do this task in getting the report for my project using the **Logical CI/CD pipeline Diagram**
+
+- 
 
 
+
+Review all the questions of each pillars in the Well Architected Tool (No specialized lens)
 
 
 ## Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts
