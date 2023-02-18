@@ -253,8 +253,8 @@ Follow [Monitoring Amazon Health events with Amazon EventBridge](https://docs.am
 
 ## Review all the questions of each pillars in the Well Architected Tool (No specialized lens)
 
-- This is not related to the course, but i thought I should mention this.
-- 
+- This is not related to the course, but I thought I should mention this.
+
 - Some time back, in Sept 2022, I completed the training for Well Architected Tool and earned a [Well-Architected Proficient Badge]([https://www.credly.com/badges/268d14c8-a150-4b3c-8e23-1ac3823abae0/linked_in_profile](https://www.credly.com/badges/268d14c8-a150-4b3c-8e23-1ac3823abae0/linked_in)
 
 - Created a workload **week_0_project** to do this task in getting the report for my project using the **Logical CI/CD pipeline Diagram**
@@ -332,41 +332,6 @@ Follow [Request a Quota Increase with Service Quotas](https://aws.amazon.com/get
 - Security Quiz - Submitted
 
 - Pricing Quiz - Submitted
-
-
-
-
-
-
-
-
-
-
-
-=======================================
-# Week 0 Viewing material
-
-Once you log into your Student portal - https://student.cloudprojectbootcamp.com/users/sign_in, Click on Submissions, Week 0, From the ToDo List, you watch all the Video Instructional Content Playlist - https://www.youtube.com/watch?v=8b8SvQHc4Pk&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv. Proceed with setting up of things that you need for this bootcamp as per the instructions given in the videos.
-
-# Required Homework/Tasks
-
-**1.** Create a Github Account 
-- I did not create a new Github Account, as I already have one, https://github.com/awsmine
-
- 1b. I setup a MFA on my GitHub account for extra security. PDF in week_0 folder.
-
-PDF file - https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_user_bobby_setup_MFA.pdf
-
-
-2. Create a Free Gitpod Account which is used for Cloud Developer Environment (CDE) to work with the code.
-
-3. I got the Gitpod Button on my Github Account. 
-
-4. Create Gitpod Codespaces, in case the I used up all the Gitpod free-tier.
-
-
-
-
 
 
 
