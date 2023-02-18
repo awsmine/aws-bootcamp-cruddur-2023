@@ -310,8 +310,8 @@ Amazon Elastic Compute Cloud (EC2) is a most commonly and widely used cloud comp
 
 - But there are some technical and service limits that could impact the technical path for flexibility.
 
-#### Technical limits of EC2 that I could think of
-**Technical limits of EC2 that I could think of**
+### Technical limits of EC2 that I could think of
+
 
 **Instance Limits:** The number of EC2 instances that a user can launch is limited by default, usually 5. These limits can be increased by submitting a request to AWS, which I did today by raising a service ticket. If a user exceeds these limits without increasing them, it can impact the flexibility of their technical path.
 
