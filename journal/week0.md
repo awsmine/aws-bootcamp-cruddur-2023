@@ -259,11 +259,7 @@ Follow [Monitoring Amazon Health events with Amazon EventBridge](https://docs.am
 
 - Created a workload **week_0_project** to do this task in getting the report for my project using the **Logical CI/CD pipeline Diagram**
 
-- 
-
-
-
-Review all the questions of each pillars in the Well Architected Tool (No specialized lens)
+- [aws-bootcamp-cruddur-2023/journal/assets/week_0_Well_Architeched_Tool_report.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Well_Architeched_Tool_report.pdf)
 
 
 ## Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts
