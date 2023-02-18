@@ -205,7 +205,7 @@ aws cloudwatch put-metric-alarm --cli-input-json file://aws/json/alarm-config.js
 
 ## 13. Create an AWS Budget
 
-- Create only 1 budget not to go over the free budget limit
+Create only 1 budget not to go over the free budget limit
 
 [aws budgets create-budget](https://docs.aws.amazon.com/cli/latest/reference/budgets/create-budget.html)
 
@@ -266,7 +266,7 @@ Follow [Monitoring Amazon Health events with Amazon EventBridge](https://docs.am
 
 ### 1. Logical Diagram
 
-- Link to my Logical Diagram from Lucid Chart
+Link to my Logical Diagram from Lucid Chart
 
 - [aws-bootcamp-cruddur-2023/journal/assets/week_0_Logical_Architectural_Diagram_Lucidchart.png](https://lucid.app/lucidchart/61cf470e-1feb-42c5-afdb-792fb1e4fb85/view?page=0_0&invitationId=inv_4088e3a2-9db3-4c69-951d-5895298985bc#)
 
