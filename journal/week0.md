@@ -300,6 +300,63 @@ Link to my Logical Diagram from Lucid Chart
 
 - [aws-bootcamp-cruddur-2023/journal/assets/week_0_Logical_CI_CD diagram.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week_0_Logical_CI_CD%20diagram.pdf)
 
+## Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility. 
+
+### Amazon Elastic Compute Cloud (EC2) 
+
+Amazon Elastic Compute Cloud (EC2) is a most commonly and widely used cloud computing service provided by Amazon Web Services (AWS) which provides scalable computing capacity in the cloud. 
+
+- EC2 offers a high degree of technical flexibility and supports a wide variety of use cases.
+
+- But there are some technical and service limits that could impact the technical path for flexibility.
+
+
+**Technical limits of EC2 that I could think of
+
+**Instance Limits:** The number of EC2 instances that a user can launch is limited by default, usually 5. These limits can be increased by submitting a request to AWS, which I did today by raising a service ticket. If a user exceeds these limits without increasing them, it can impact the flexibility of their technical path.
+
+**Instance types:** EC2 offers several instance types with varying amounts of CPU, memory, and storage capacity. Each instance type has a limit on the number of instances that can be launched, and the total number of vCPUs that can be used.
+
+**Network:** EC2 instances are connected to the internet through Amazon VPC. VPC has limits on the number of subnets, security groups, and network interfaces that can be created.
+
+**Network Interfaces:** Each EC2 instance can have a limited number of network interfaces. If a user needs to connect their instances to multiple networks or use multiple IP addresses, they may need to use additional instances or consider other AWS services.
+
+**Storage:** EC2 provides different types of storage options, including Elastic Block Store (EBS), instance store, and Amazon S3. Each storage type has different limits on storage capacity, IOPS, and throughput.
+
+
+**Sonme service limits of EC2
+
+**Volumes:** EC2 instances can attach a limited number of volumes, and each volume has a maximum size limit. This can impact the technical path if a user needs to attach more volumes or use larger volumes.
+
+**Availability Zones:** EC2 instances can be launched in different availability zones (AZs) to improve availability and fault tolerance, which are isolated data centers within a region. There are limits on the number of instances that can be launched in each AZ, and the total number of instances that can be launched in a region.
+
+**Security:** EC2 provides several security features, including network security groups, IAM roles, and encryption. There are limits on the number of security groups, IAM roles, and keys that can be created.
+
+**Elastic IP addresses:** EC2 provides elastic IP addresses (EIPs) that can be associated with instances. There are limits on the number of EIPs that can be allocated per account.
+
+**Auto Scaling:** EC2 Auto Scaling allows users to automatically scale the number of instances based on demand. There are limits on the number of Auto Scaling groups and launch configurations that can be created.
+
+**Amazon Machine Images (AMIs):** EC2 instances can be launched from pre-configured Amazon Machine Images (AMIs). There are limits on the number of AMIs that can be created and shared.
+
+**Regional limitations:** Some EC2 features may not be available in all AWS regions. For example, certain instance types may only be available in specific regions, and some instance types may have limited availability in certain regions.
+
+These limits can impact the technical path for technical flexibility in several ways. 
+
+**For example**, if a company needs to launch a large number of instances, they may need to select an instance type that has a high number of vCPUs, and use multiple availability zones to distribute the load. 
+
+**For example**, if a company needs to store large amounts of data, they may need to use multiple storage types, such as EBS and S3, to accommodate the data. 
+
+**For example**, if a company needs to launch instances in multiple regions, they may need to allocate EIPs across regions to ensure seamless connectivity.
+
+To address these limits, companies can work with AWS support to increase their limits or consider using other AWS services, such as EC2 Spot Instances or Amazon Elastic Kubernetes Service (EKS), to optimize their infrastructure.
+
+Additionally, if a customer requires certain instance types that are only available in certain regions, they may need to choose a different region or use a different service altogether. These limitations can also impact application architecture and design, as well as the overall cost of running applications on EC2.
+
+In conclusion, EC2 provides a highly flexible and scalable infrastructure for running various types of workloads, but its technical and service limits can impact the technical path for flexibility. It is essential to understand these limits and plan accordingly to achieve maximum technical flexibility.
+
+### Application Load Balancer (ALB)
+
+
 
 
 ## Open a support ticket and request a service limit
