@@ -327,6 +327,12 @@ Follow [Request a Quota Increase with Service Quotas](https://aws.amazon.com/get
 - 
 
 
+## Knowledge Challenges
+
+- Security Quiz - Submitted
+
+- Pricing Quiz - Submitted
+
 
 
 
