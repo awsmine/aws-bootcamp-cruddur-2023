@@ -336,7 +336,7 @@ Amazon Elastic Compute Cloud (EC2) is a most commonly and widely used cloud comp
 
 - **Auto Scaling:** EC2 Auto Scaling allows users to automatically scale the number of instances based on demand. There are limits on the number of Auto Scaling groups and launch configurations that can be created.
 
-**Amazon Machine Images (AMIs):** EC2 instances can be launched from pre-configured Amazon Machine Images (AMIs). There are limits on the number of AMIs that can be created and shared.
+- **Amazon Machine Images (AMIs):** EC2 instances can be launched from pre-configured Amazon Machine Images (AMIs). There are limits on the number of AMIs that can be created and shared.
 
 - **Regional limitations:** Some EC2 features may not be available in all AWS regions. For example, certain instance types may only be available in specific regions, and some instance types may have limited availability in certain regions.
 
@@ -356,7 +356,68 @@ In conclusion, EC2 provides a highly flexible and scalable infrastructure for ru
 
 ### Application Load Balancer (ALB)
 
+Load balancers are a crucial component of modern distributed systems used to distribute incoming network traffic across multiple servers or computing resources in order to improve the overall performance, reliability, and scalability of an application or service. 
 
+- However, like any other technology, load balancers have their own technical and service limits, which can impact the flexibility of an organization's technical path.
+
+
+
+### Technical Limits of LB:
+
+- **Capacity:** Load balancers have a finite capacity to handle traffic. The capacity is determined by the maximum number of connections that the load balancer can handle per second. If the traffic volume exceeds the load balancer's capacity, it can lead to slower response times or even service downtime.
+
+- **Latency:** Load balancers can introduce latency, which is the time it takes for a request to be processed. If the load balancer is located in a different geographic region than the servers, it can add additional latency to the response time.
+
+- **Single point of failure:** Load balancers can be a single point of failure. If the load balancer goes down, it can lead to service downtime, even if the backend servers are still operational.
+
+- **SSL/TLS offloading:** Load balancers can offload SSL/TLS encryption and decryption from the backend servers. However, this can increase the load balancer's processing overhead and introduce latency.
+
+- **Protocol Support:** Load balancers have limitations in terms of the types of protocols and traffic they can handle. For instance, some load balancers may not support certain protocols such as UDP or may have limited support for SSL/TLS protocols, which can impact the security and availability of applications that rely on these protocols.
+
+
+### Service Limits of LB:
+
+- **Cost:** Load balancers are typically charged on a per-hour or per-month basis. They can be expensive, especially if you need to scale up to handle large volumes of traffic.
+
+- **Vendor lock-in:** Vendor Lock-In: Organizations that rely on a specific load balancer vendor may be locked into that vendor's technology and may have limited flexibility to switch to another load balancer vendor or technology.
+
+- **Complexity:** Load balancers can add complexity to your infrastructure, which can increase the risk of errors and downtime.
+
+- **Lack of visibility:** Load balancers can hide information about the backend servers from the clients, which can make it difficult to troubleshoot issues.
+
+
+**Technical Support:** Load balancers require technical expertise to set up, maintain, and troubleshoot, and organizations that lack in-house technical expertise may find it challenging to effectively use and manage load balancers.
+
+
+
+### Impact on Technical Path for Technical Flexibility:
+
+**For example:**
+
+- **Capacity limits can impact scalability:** If the load balancer's capacity is exceeded, it can be difficult to scale the system to handle larger volumes of traffic. This can limit the technical path for technical flexibility, as it can be difficult to add new servers or change the infrastructure to handle the increased load.
+
+- **Latency limits can impact performance:** If the load balancer adds significant latency, it can impact the performance of the system. This can limit the technical path for technical flexibility, as it can be difficult to change the infrastructure to reduce latency.
+
+- **Single point of failure limits can impact reliability:** If the load balancer is a single point of failure, it can impact the reliability of the system. This can limit the technical path for technical flexibility, as it can be difficult to change the infrastructure to improve reliability.
+
+- **Service limits can impact cost and vendor lock-in:** If the cost of the load balancer is high or if it is a proprietary technology, it can limit the technical path for technical flexibility. It can be difficult to switch vendors or migrate to a different technology in the future.
+
+
+**To address these issues, organizations can take several steps, such as:**
+
+- Conducting thorough research and testing before selecting a load balancer vendor or technology to ensure that it aligns with the organization's needs and goals.
+
+- Monitoring the load balancer's capacity and usage metrics to ensure that it can handle the organization's traffic demands and identify any potential bottlenecks.
+
+- Investing in technical expertise to effectively set up and manage load balancers, or consider working with a managed service provider (MSP) to manage load balancers.
+
+I- mplementing redundancy and failover mechanisms to ensure high availability and minimize downtime.
+
+- Evaluating load balancer costs and seeking out cost-effective options that meet the organization's needs and budget.
+
+By taking these steps, organizations can effectively address the technical and service limits of load balancers and ensure that they have the technical flexibility needed to achieve their business goals.
+
+Overall, the technical and service limits of load balancers can impact the technical path for technical flexibility in a variety of ways. It is important to consider these limits when designing and implementing load balancing solutions, and to choose a load balancing solution that meets your specific requirements for capacity, latency, reliability, cost, and vendor lock-in.
 
 
 ## Open a support ticket and request a service limit
