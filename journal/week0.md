@@ -324,7 +324,7 @@ Amazon Elastic Compute Cloud (EC2) is a most commonly and widely used cloud comp
 - **Storage:** EC2 provides different types of storage options, including Elastic Block Store (EBS), instance store, and Amazon S3. Each storage type has different limits on storage capacity, IOPS, and throughput.
 
 
-### Sonme service limits of EC2
+### Some service limits of EC2
 
 - **Volumes:** EC2 instances can attach a limited number of volumes, and each volume has a maximum size limit. This can impact the technical path if a user needs to attach more volumes or use larger volumes.
 
