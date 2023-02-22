@@ -2,7 +2,7 @@
 
 ## Before starting Homework
 
-- Watched [Videos for week 1](https://www.youtube.com/watch?v=8b8SvQHc4Pk&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=1)
+- Watched [Videos for week 1 starting from this - (https://www.youtube.com/watch?v=zJnNe5Nv4tE))
 
 
 
