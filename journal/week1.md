@@ -57,8 +57,6 @@ npm i
 ```
 
 
-- As part of the setup to get the app to run locally in Python, we needed to ensure all the modules in requirements.txt are installed, as well as do an npm install before building the container, so it can copy the contents of node_modules. Added the following to the .gitpod.yml init section to automate these steps whenever a new Gitpod workspace is spun up:
-
 ## Images for Front and Back Ends
 
 - [frontend-flask-working.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_1/frontend-flask-working.pdf)
