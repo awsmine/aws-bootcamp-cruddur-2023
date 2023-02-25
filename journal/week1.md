@@ -1,7 +1,7 @@
 # Week 1 — App Containerization
 
 
-For week1, I have decided not to put the code for the tasks, but write down and document how I completed all the tasks watching Andrew's Videos 2-3x.
+For week1, I have decided not to put the code for the homework tasks in the journal, but write down and document how I completed all the tasks watching Andrew's Videos 2-3x.
 
 - I wrote down the code for each task on the notepad, and went over the videos again to check and then executed them.
  
