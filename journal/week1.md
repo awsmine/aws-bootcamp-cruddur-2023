@@ -1,6 +1,5 @@
 # Week 1 — App Containerization
 
-# week1
 
 For week1, I have decided not to put the code for the tasks, but write down and document how I completed all the tasks watching Andrew's Videos 2x.
 
