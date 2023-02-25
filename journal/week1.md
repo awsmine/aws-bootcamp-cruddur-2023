@@ -48,7 +48,7 @@ docker rm <CONTAINER NAME>
 
 - After spinning up your workspace, you have to run ***npm Install*** before building the container, so that it can copy the contents of node_modules.
 
-- This is needed to get the app to run locally every time you spin up youe workspace in Gitpod
+- This is needed to get the app to run locally every time you spin up your workspace in Gitpod
 
 ```
 cd frontend-react-js
