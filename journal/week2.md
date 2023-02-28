@@ -16,6 +16,16 @@
 
 ## Homework Challenges
 
+### 1. Instrument Honeycomb for the frontend-application to observe network latency between frontend and backend[HARD]
+
+
+
+### 2. Add custom instrumentation to Honeycomb to add more attributes eg. UserId, Add a custom span
+
+
+
+### 3. Run custom queries in Honeycomb and save them later eg. Latency by UserID, Recent Traces
+
 
 
 
