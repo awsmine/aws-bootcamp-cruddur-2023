@@ -425,7 +425,7 @@ AWS_XRAY_DAEMON_ADDRESS: "xray-daemon:2000"
 
 - [week-2-xray-tracemap-segments-timeline.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week-2-xray-tracemap-segments-timeline.pdf)
 
-**8. Instrumenting Segments and Subsegments code from Olley's article
+**8. Instrumenting Segments and Subsegments code from Olley's article**
 
 - [Instrumenting Segments and Subsegments - Olley's article](https://olley.hashnode.dev/aws-free-cloud-bootcamp-instrumenting-aws-x-ray-subsegments)
 
