@@ -97,6 +97,8 @@ pip install -r requirements.txt
 
 **5. Importing required modules from the opentelemetry package for tracing and instrumentation**
 
+- backend-flask/app.py, add
+
 ```
 # Honeycomb -------
 from opentelemetry import trace
