@@ -548,15 +548,15 @@ docker compose up
 
 
 ```
-rollbar
 blinker
+rollbar
 ```
 
 - OR
 
 ```
-pip install rollbar
 pip install blinker
+pip install rollbar
 ```
 
 **2. Install dependencies**
