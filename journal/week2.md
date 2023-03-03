@@ -565,7 +565,7 @@ pip install blinker
 pip install -r requirements.txt
 ```
 
-**3. run these commands to set these env var within our shell and our gitpod account.
+**3. run these commands to set these env var within our shell and our gitpod account**
 
 ```
 export ROLLBAR_ACCESS_TOKEN=""
@@ -582,7 +582,7 @@ gp env
 ```
 
 
-**4. import and define the code that will be responsible for getting rollbar to work. cd into our backend-flask and head to app.py. You are going to enter this:
+**4. import and define the code that will be responsible for getting rollbar to work**
 
 - backend-flask/app.py
 
@@ -622,7 +622,7 @@ def rollbar_test():
     return "Hello World!"
 ```
 
-**5. Add to backend-flask for docker-compose.yml
+**5. Add to backend-flask for docker-compose.yml**
 
 - docker-compose.yml, add
 
@@ -630,7 +630,7 @@ def rollbar_test():
 ROLLBAR_ACCESS_TOKEN: "${ROLLBAR_ACCESS_TOKEN}"
 ```
 
-**6. Run 
+**6. Run**
 
 ```
 docker compose up
