@@ -133,7 +133,7 @@ RequestsInstrumentor().instrument()
 
 
 
-[commit link]() shows adding the instrument honeycomb to app.py
+[commit link - week 2 - commit-instrument honeycomb.pdf]() shows adding the instrument honeycomb to app.py
 
 
 - git commit -m "instrument honeycomb"
@@ -174,22 +174,22 @@ ports:
 - git push 
 
 
-- from backend URL, you will see this Raw Data, before you create a span
+- from backend URL, with /api/activities/home, you will see this Raw Data
 
 ```
 [
   {
-    "created_at": "2023-02-27T22:15:03.577610+00:00",
-    "expires_at": "2023-03-06T22:15:03.577610+00:00",
-    "handle": "andrew Brown",
+    "created_at": "2023-03-01T14:55:13.532950+00:00",
+    "expires_at": "2023-03-08T14:55:13.532950+00:00",
+    "handle": "Andrew Brown",
     "likes_count": 5,
-    "message": "cloud is very fun!",
+    "message": "Cloud is very fun!",
     "replies": [
       {
-        "created_at": "2023-02-27T22:15:03.577610+00:00",
-        "handle": "worf",
+        "created_at": "2023-03-01T14:55:13.532950+00:00",
+        "handle": "Worf",
         "likes_count": 0,
-        "message": "this post has no honor!",
+        "message": "This post has no honor!",
         "replies_count": 0,
         "reply_to_activity_uuid": "68f126b0-1ceb-4a33-88be-d90fa7109eee",
         "reposts_count": 0,
@@ -201,20 +201,20 @@ ports:
     "uuid": "68f126b0-1ceb-4a33-88be-d90fa7109eee"
   },
   {
-    "created_at": "2023-02-22T22:15:03.577610+00:00",
-    "expires_at": "2023-03-10T22:15:03.577610+00:00",
-    "handle": "worf",
+    "created_at": "2023-02-24T14:55:13.532950+00:00",
+    "expires_at": "2023-03-12T14:55:13.532950+00:00",
+    "handle": "Worf",
     "likes": 0,
-    "message": "i am out of prune juice",
+    "message": "I am out of prune juice",
     "replies": [],
     "uuid": "66e12864-8c26-4c3a-9658-95a10f8fea67"
   },
   {
-    "created_at": "2023-03-01T21:15:03.577610+00:00",
-    "expires_at": "2023-03-02T10:15:03.577610+00:00",
-    "handle": "garek",
+    "created_at": "2023-03-03T13:55:13.532950+00:00",
+    "expires_at": "2023-03-04T02:55:13.532950+00:00",
+    "handle": "Garek",
     "likes": 0,
-    "message": "my dear doctor, I am just simple tailor",
+    "message": "My dear doctor, I am just simple tailor",
     "replies": [],
     "uuid": "248959df-3079-4947-b847-9e0892d1bab4"
   }
@@ -247,75 +247,184 @@ with tracer.start_as_current_span("home-activities-mock-data"):
       span.set_attribute("app.now", now.isoformat())
 ```
 
-
-- you will this Raw Data from the backend URL after you create a span
-
-```
-class HomeActivities:
-  def run():
-    with tracer.start_as_current_span("home-activities-mock-data"):
-      span = trace.get_current_span()
-      now = datetime.now(timezone.utc).astimezone()
-      span.set_attribute("app.now", now.isoformat())
-      results = [{
-        'uuid': '68f126b0-1ceb-4a33-88be-d90fa7109eee',
-        'handle':  'andrew Brown',
-        'message': 'cloud is very fun!',
-        'created_at': (now - timedelta(days=2)).isoformat(),
-        'expires_at': (now + timedelta(days=5)).isoformat(),
-        'likes_count': 5,
-        'replies_count': 1,
-        'reposts_count': 0,
-        'replies': [{
-          'uuid': '26e12864-1c26-5c3a-9658-97a10f8fea67',
-          'reply_to_activity_uuid': '68f126b0-1ceb-4a33-88be-d90fa7109eee',
-          'handle':  'worf',
-          'message': 'this post has no honor!',
-          'likes_count': 0,
-          'replies_count': 0,
-          'reposts_count': 0,
-          'created_at': (now - timedelta(days=2)).isoformat()
-      }],
-    },
-    {
-      'uuid': '66e12864-8c26-4c3a-9658-95a10f8fea67',
-      'handle':  'worf',
-      'message': 'i am out of prune juice',
-      'created_at': (now - timedelta(days=7)).isoformat(),
-      'expires_at': (now + timedelta(days=9)).isoformat(),
-      'likes': 0,
-      'replies': []
-    },
-    {
-      'uuid': '248959df-3079-4947-b847-9e0892d1bab4',
-      'handle':  'garek',
-      'message': 'my dear doctor, I am just simple tailor',
-      'created_at': (now - timedelta(hours=1)).isoformat(),
-      'expires_at': (now + timedelta(hours=12)).isoformat(),
-      'likes': 0,
-      'replies': []
-    }
-    ]
-    span.set_attribute("app.result_length", len(results))    
-    return results
-```
-
 - Next I ran custom query grouped by trace.trace_id and chose a trace fron a span and see the expected results.
 
 
 #### Images
 
-- [1-honeycomb-setup](https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-2/journal/week2.md)
+- [week 2 -1-honeycomb-setup.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week%202%20-1-honeycomb-setup.pdf)
 
-- [1-honeycomb-setup](https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-2/journal/week2.md)
+- [week 2 -2-honeycomb-span.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week%202%20-2-honeycomb-span.pdf))
 
-- [2-honeycomb-span](https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-2/journal/week2.md)
+- [week 2 -3-honeycomb-trace.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week%202%20-3-honeycomb-trace.pdf)
 
-- [3-honeycomb-trace](https://github.com/omenking/aws-bootcamp-cruddur-2023/blob/week-2/journal/week2.md)
+- [week 2 -4-honeycomb-home-activities-mock-data-trace.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week%202%20-4-honeycomb-home-activities-mock-data-trace.pdf)
 
-- [4-honeycomb-home-activities-mock-data-trace]()
+- [week 2 -5-honeycomb-app-result_length.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week%202%20-5-honeycomb-app-result_length.pdf)
 
-- [5-honeycomb-app-result_length]()
+
+
+
+### 2. Week 2 Instrument XRay
+        
+**AWS Xray** is similar to Honeycomb. It uses distributed tracing to your applications in order for you to gain insights on latency and performance of your applications. 
+
+- [Github - AWS X-Ray SDK Python](https://github.com/aws/aws-xray-sdk-python)
+
+ **1. Installing AWS X-RAY SDK to the backend-end flask**
+ 
+ - From root directory, cd to backend-flask and add this to the requirents.txt file (to install python dependencies)
+
+```
+aws-xray-sdk
+```
+
+- then run from backend-flask
+
+```
+pip install -r requirements.txt
+```
+
+**2. Add to app.py**
+
+- backend-flask/app.py
+
+```
+# import X-Ray modules for running the application
+from aws_xray_sdk.core import xray_recorder
+from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
+
+# configures the X-Ray SDK with the retrieved X-Ray URL for service "backend-flask"
+xray_url = os.getenv("AWS_XRAY_URL")
+xray_recorder.configure(service='backend-flask', dynamic_naming=xray_url)
+
+# Adding X-Ray middleware
+XRayMiddleware(app, xray_recorder)
+```
+
+**3. Setup AWS X-Ray Resources - xray.json**
+     
+- aws/json/xray.json - Create a file xray.json 
+
+```
+{
+    "SamplingRule": {
+        "RuleName": "Cruddur",
+        "ResourceARN": "*",
+        "Priority": 9000,
+        "FixedRate": 0.1,
+        "ReservoirSize": 5,
+        "ServiceName": "backend-flask",
+        "ServiceType": "*",
+        "Host": "*",
+        "HTTPMethod": "*",
+        "URLPath": "*",
+        "Version": 1
+    }
+  }
+```
+
+**4. Configuring AWS X-Ray to create a group for the "Cruddur" and filtering traces for the "backend-flask" service**
+
+- from backend-flask, run cli command
+
+```
+aws xray create-group \
+   --group-name "Cruddur" \
+   --filter-expression "service(\"backend-flask\")"
+```
+
+- not used
+
+```
+FLASK_ADDRESS="https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}" 
+```    
+  
+- **Note: The X-Ray Trace Groups are under X-Ray > New Console > CloudWatch > Settings > Traces > View Settings > Groups**
+
+- [week-2-X-Ray group.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week-2-X-Ray%20group.pdf)
+
+**5. Configure the X-Ray sampling rules for the application with cli**
+
+- run from aws/json
+
+```
+aws xray create-sampling-rule --cli-input-json file://xray.json
+```
+
+- OR
+
+```
+aws xray create-sampling-rule --cli-input-json file://aws/json/xray.json
+```
+
+- **Note: The Sampling rules are under CloudWatch > Settings > Traces > View Settings > Sampling rules**
+
+
+- [week-2-Xray-Sampling rule.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week-2-Xray-Sampling%20rule.pdf)
+
+
+
+**6. Adding X-Ray Daemon Container to Docker Compose**
+
+- need to set up a container to host the xray daemon that will be tracing our application
+
+- add to docker-compose.yml
+
+```
+# AWS X-Ray Daemon Container
+# https://hub.docker.com/r/amazon/aws-xray-daemon
+  xray-daemon:
+      image: "amazon/aws-xray-daemon"
+      environment:
+        AWS_ACCESS_KEY_ID: "${AWS_ACCESS_KEY_ID}"
+        AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
+        AWS_REGION: ""us-east-1"
+      command:
+        - xray -o -b "xray-daemon:2000"
+      ports:
+        - 2000:2000/udp
+```
+
+- add these two env vars to our backend-flask in our docker-compose.yml file
+
+```
+AWS_XRAY_URL: "*4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}*"
+AWS_XRAY_DAEMON_ADDRESS: "xray-daemon:2000"
+```
+
+- git commit -m "instrument x-ray"
+
+- git push
+
+[commit link - week 2-commit-instrument-Xray.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week%202-commit-instrument-Xray.pdf) shows adding the instrument x-ray to docker-compose.yml
+     
+**7. ran docker compose up -d**
+
+- Before you can see the x-ray trace 
+
+- Connect to the Back-end URL from the Gitpod in the ports tab by appending /api/activities/home
+
+- take you to the API page that is hosting the backend for our home_activities.py
+
+- Refresh it few times
+
+- **then Go AWS Console, X-Ray > New Console > CloudWatch > Traces > Run Query**
+
+- X-Ray trace appeared in AWS X-Ray console 
+
+- [week-2-xray-trace.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week-2-xray-trace.pdf)
+
+- Click on a trace 
+
+
+- [week-2-xray-tracemap.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week-2-xray-tracemap.pdf)
+
+- [week-2-xray-tracemap-segments-timeline.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week-2-xray-tracemap-segments-timeline.pdf)
+
+**8. Instrumenting Segments and Subsegments code from Olley's article
+
+- [Instrumenting Segments and Subsegments - Olley's article](https://olley.hashnode.dev/aws-free-cloud-bootcamp-instrumenting-aws-x-ray-subsegments)
 
 
 
@@ -341,6 +450,12 @@ class HomeActivities:
 
 ### 3. Run custom queries in Honeycomb and save them later eg. Latency by UserID, Recent Traces
 
+**Images Saved Custom queries**
+
+- [week-2-Heatmap-duration-1](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week-2-Heatmap-duration-1.pdf)
+
+- [week-2-Heatmap-duration-saved-query-2](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week-2-Heatmap-duration-saved-query-2.pdf)
+
 
 
 
@@ -348,9 +463,12 @@ class HomeActivities:
 
 
 
+
 ## Cloud Technical Essays
 
 ### 1. [GitHub - most commonly used commands and sites](https://dev.to/aws-builders/github-most-commonly-used-commands-and-sites-5df7)
+
+### 2.
 
 
 
