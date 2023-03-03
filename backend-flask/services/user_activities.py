@@ -1,5 +1,3 @@
-
-''' commented original code
 from datetime import datetime, timedelta, timezone
 class UserActivities:
   def run(user_handle):
@@ -23,8 +21,9 @@ class UserActivities:
       }]
       model['data'] = results
     return model
-'''
 
+
+'''
 # Olley's
 import os
 from datetime import datetime, timedelta, timezone
@@ -84,3 +83,4 @@ class UserActivities:
       # Close the segment
       xray_recorder.end_subsegment()
     return model
+'''
