@@ -33,7 +33,7 @@ Followed instructions from https://github.com/omenking/aws-bootcamp-cruddur-2023
 - [Week 2 - Github Codespaces Crash Course](https://www.youtube.com/watch?v=L9KKBXgKopA&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=36)
 
 - [Week 2 - X-Ray Subsegments Solved](https://www.youtube.com/watch?v=4SGTW0Db5y0&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=37)
-- 
+
 
 ### 1. Week 2 - AWS Cloud Project Bootcamp - Distributed Tracing - honeycomb.io set up
 
