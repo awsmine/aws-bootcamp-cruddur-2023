@@ -717,8 +717,9 @@ ROLLBAR_ACCESS_TOKEN: "${ROLLBAR_ACCESS_TOKEN}"
 docker compose up
 ```
 
-   
-    
+**7. Result**
+
+- [week 2 - rollbar-Hello World.pdf](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week%202%20-%20rollbar-Hello%20World.pdf)
 
 
 
@@ -734,15 +735,9 @@ docker compose up
 
 
 
-### 1. Instrument Honeycomb for the frontend-application to observe network latency between frontend and backend[HARD]
+### 1. Run custom queries in Honeycomb and save them later eg. Latency by UserID, Recent Traces
 
-
-
-### 2. Add custom instrumentation to Honeycomb to add more attributes eg. UserId, Add a custom span
-
-
-
-### 3. Run custom queries in Honeycomb and save them later eg. Latency by UserID, Recent Traces
+- I ran custom query grouped by Heatmap duration P90ms, an Run Query to see the expected results.
 
 **Images Saved Custom queries**
 
