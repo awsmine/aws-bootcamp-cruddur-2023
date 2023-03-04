@@ -436,6 +436,8 @@ AWS_XRAY_DAEMON_ADDRESS: "xray-daemon:2000"
 
 **Watchtower** has libraries for python applications which provide a handler that can be used to log events in your Python code, and then send those logs to CloudWatch for storage, analysis, and visualization.
 
+**cloudwatch group** deleted not to incur charges.
+
 **1.  Install WatchTower**
 
 - in the backend-flask/requirements.txt, add
@@ -517,11 +519,15 @@ def run(logger):
       AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
 ```
 
-**6.** run 
+**6. run**
 
 ```
 docker compose up
 ```
+
+**7. Cloudwatch group
+
+- [week 2 - cloudwatch-group.pdf[(https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week%202%20-%20cloudwatch-group.pdf)
 
 ### 4. [Week 2 - Rollbar](https://www.youtube.com/watch?v=xMBDAb5SEU4)
 
@@ -571,9 +577,9 @@ pip install -r requirements.txt
 export ROLLBAR_ACCESS_TOKEN=""
 gp env ROLLBAR_ACCESS_TOKEN=""
 ```
-33283f3d74e145039b2943727159acd7
+af2481d85df14e12b537a352a0cc5e77
 
-33283f3d74e145039b2943727159acd7
+
 
 - check to see if they are set up
 
