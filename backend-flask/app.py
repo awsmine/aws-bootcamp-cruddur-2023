@@ -24,8 +24,8 @@ from opentelemetry.sdk.trace.export import BatchSpanProcessor
 #from opentelemetry.sdk.trace.export import ConsoleSpanExporter, SimpleSpanProcessor
 
 # import X-Ray modules for running the application
-from aws_xray_sdk.core import xray_recorder
-from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
+#from aws_xray_sdk.core import xray_recorder
+#from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
 
 # import rollbar libraries
 import rollbar
@@ -34,9 +34,9 @@ from flask import got_request_exception
 
 # CloudWatch Logs -----
 # The strftime function is used to add timestamps to your log messages for easier analysis
-import watchtower
-import logging
-from time import strftime
+#import watchtower
+#import logging
+#from time import strftime
 
 # CloudWatch --------
 # Configuring Logger to Use CloudWatch
