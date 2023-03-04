@@ -746,6 +746,57 @@ docker compose up
 - [week-2-Heatmap-duration-saved-query-2](https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week-2-Heatmap-duration-saved-query-2.pdf)
 
 
+### 2. Cleaning up the resources when you get errors for not seeing the Back-end and Front-end URL's
+
+While doing the Homework reviews, I got the following error 5-10 times. No matter what you do, thesame error continued. The ports are open, but the error does not seem to go away. It was very frustrating. 
+
+https://4567-xxxxxx-crka8yyfj66.ws-us89.gitpod.io/ ======> not found error
+
+I did these steps many times to see that the backend comes up
+
+- docker container prune
+
+- check to see if container still remains 
+
+```
+docker ps
+```
+
+- docker rmi -f <IMAGE ID>
+ 
+- check to see if any image still remains 
+ 
+```
+ docker images
+```
+ 
+- shut down the workspace
+ 
+- delete all the workspaces
+ 
+```
+gitpod.io/workspaces, click the 3 dots, and delete the workspace
+```
+
+- start a new workspace
+
+- from frond-end flask
+ 
+```
+npm i
+```
+
+- from back-end flask
+ 
+```
+pip install -r requirements
+```
+ 
+- then finally
+ 
+```
+docker compose up
+```
 
 
 ## Knowledge Challenges
@@ -759,7 +810,7 @@ docker compose up
 
 ### 1. [GitHub - most commonly used commands and sites](https://dev.to/aws-builders/github-most-commonly-used-commands-and-sites-5df7)
 
-### 2.
+
 
 
 
