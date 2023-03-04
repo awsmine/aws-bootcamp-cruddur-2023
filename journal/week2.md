@@ -525,7 +525,7 @@ def run(logger):
 docker compose up
 ```
 
-**7. Cloudwatch group
+**7. Cloudwatch group**
 
 - [week 2 - cloudwatch-group.pdf[(https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week%202%20-%20cloudwatch-group.pdf)
 
