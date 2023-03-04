@@ -529,7 +529,82 @@ docker compose up
 
 - [week 2 - cloudwatch-group.pdf[(https://github.com/awsmine/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week_2/week%202%20-%20cloudwatch-group.pdf)
 
-### 4. [Week 2 - Rollbar](https://www.youtube.com/watch?v=xMBDAb5SEU4)
+
+## Stop Xray and Cloudwatch from logging
+
+1. backend-flask/services/app.py
+
+
+```
+# import X-Ray modules for running the application
+#from aws_xray_sdk.core import xray_recorder
+#from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
+
+**********
+
+# CloudWatch Logs -----
+# The strftime function is used to add timestamps to your log messages for easier analysis
+#import watchtower
+#import logging
+#from time import strftime
+
+**********
+
+# CloudWatch --------
+# Configuring Logger to Use CloudWatch
+# when executed crudder log message will be sent to Cloudwatch
+#LOGGER = logging.getLogger(__name__)
+#LOGGER.setLevel(logging.DEBUG)
+#console_handler = logging.StreamHandler()
+#cw_handler = watchtower.CloudWatchLogHandler(log_group='cruddur')
+#LOGGER.addHandler(console_handler)
+#LOGGER.addHandler(cw_handler)
+#LOGGER.info("test log")
+
+**********
+
+# configures the X-Ray SDK with the retrieved X-Ray URL for service "backend-flask"
+#xray_url = os.getenv("AWS_XRAY_URL")
+#xray_recorder.configure(service='backend-flask', dynamic_naming=xray_url)
+
+**********
+
+# Adding X-Ray middleware
+#XRayMiddleware(app, xray_recorder)
+
+**********
+
+# to collect logs for Cloudwatch errors 
+#@app.after_request to collect logs for errors
+#def after_request(response):
+ #   timestamp = strftime('[%Y-%b-%d %H:%M]')
+  #  LOGGER.error('%s %s %s %s %s %s', timestamp, request.remote_addr, request.method, request.scheme, request.full_path, response.status)
+   # return response
+
+**********
+
+# after - Cloudwatch
+# Pass the LOGGER variable into HomeActivities class
+#@app.route("/api/activities/home", methods=['GET'])
+#def data_home():
+#  data = HomeActivities.run(logger=LOGGER)
+#  return data, 200
+
+**********
+```
+
+2. backend-flask/services/home_activities.py
+
+```
+
+#def run(logger):
+    #logger.info("HomeActivities")
+    
+```
+
+
+
+### 4. Week 2 - Rollbar
 
 **Rollbar** is an Error logging and tracking service, allows us to track bugs and monitor for solutions on our systems. 
 
@@ -680,7 +755,9 @@ docker compose up
 
 ## Knowledge Challenges
 
+- Security Quiz - Submitted
 
+- Pricing Quiz - Submitted
 
 
 ## Cloud Technical Essays
